@@ -1,7 +1,8 @@
 import Image from "next/image";
-import { Button } from "@heroui/react";
+
 import Navbar from "./Navbar";
 import Marquee from "./Marquee";
+import UserInfo from "./UserInfo";
 
 const Header = () => {
   const today = new Date().toLocaleDateString("bn-BD", {
@@ -29,10 +30,7 @@ const Header = () => {
         {/* Logo Button */}
 
         {/* button div */}
-        <div className="absolute right-0 flex items-center gap-3 ">
-            <Button variant="danger">সাইন আপ</Button>
-        <Button variant="ghost"> সাইন ইন</Button>
-        </div>
+        <UserInfo></UserInfo>
         {/* button div */}
            
         </div>
