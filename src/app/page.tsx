@@ -22,7 +22,7 @@ export default async function Home() {
   const data = await res.json()
   const section = data.data
   const mainNews = section[0].articles
-  const otherSection: IotherSection = section.slice(1)
+  const otherSection: IotherSection[] = section.slice(1)
 
   
   return (

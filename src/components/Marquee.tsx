@@ -12,7 +12,7 @@ const Marquee = async () => {
  const response = await fetch("https://news-api-v2.vercel.app/api/news?limit=10");
 
   const data = await response.json(); 
-   const  headlines:Headlines  = data.data
+   const  headlines:Headlines[]  = data.data
 
 
     return(
