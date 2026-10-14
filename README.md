@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📰 Bangla News 24
 
-## Getting Started
+A Bengali news web application that helps users explore the latest news, browse news by category, and read detailed articles in Bangla.
 
-First, run the development server:
+## 📸 Project Overview
+
+Bangla News 24 is designed to provide a simple and user-friendly news browsing experience. Users can explore different news categories and view individual news articles through a clean interface.
+
+## ✨ Key Features
+
+- 📰 Browse news articles in Bangla
+- 📂 Explore news by category
+- 📖 Read detailed news articles
+- 📱 Responsive user interface
+- 🔐 Sign-in and sign-up interface
+
+## 🛠️ Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- REST API
+
+## 📦 Dependencies
+
+Main dependencies used in the project:
+
+- `next`
+- `react`
+- `react-dom`
+
+Other dependencies depend on the packages installed in the project.
+
+## 🚀 Run Locally
+
+Follow these steps to run the project on your local machine.
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd YOUR_PROJECT_FOLDER
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Open in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit [http://localhost:3000](http://localhost:3000).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔗 API Used
 
-## Learn More
+News API: https://news-api-v2.vercel.app
 
-To learn more about Next.js, take a look at the following resources:
+## 🌐 Live Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://bba-news-2026.vercel.app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👩‍💻 Author
 
-## Deploy on Vercel
+**Trisha**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- GitHub: https://github.com/mrstrisha
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+⭐ If you find this project interesting, feel free to explore the repository!
